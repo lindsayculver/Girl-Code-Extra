@@ -1,8 +1,10 @@
 {{yield}}
 
+<br>
 <li>
 {{blog.title}}<br>
 {{blog.groupName}}<br>
 {{blog.content}}<br>
 </li>
+<button type="button" class="btn btn-warning btn-xs" {{action 'delete' blog}}>Delete</button>
 <br>
