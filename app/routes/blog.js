@@ -12,6 +12,16 @@ export default Ember.Route.extend({
       this.transitionTo('blog');
     },
 
+    update(blog, params) {
+       Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          blog.set(key,params[key]);
+        }
+      });
+      blog.save();
+      this.transitionTo('blog');
+    },
+
     destroyBlog(blog) {
       blog.destroyRecord();
       this.transitionTo('blog');
