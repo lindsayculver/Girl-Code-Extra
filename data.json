@@ -1,0 +1,56 @@
+{"mentors": [{
+  "name": "Yelena Nedelko",
+  "hometown": "San Francisco, & more",
+  "favoriteLanguage": "JavaScript",
+  "quote": "You can do it!",
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKkAAAAJDBlNmMxOTJmLTM1N2QtNDY2OC05MTA2LThkZWI3YjM1NmQyYw.jpg"
+
+}, {
+  "name": "Lindsay Culver",
+  "hometown": "SLO, California",
+  "favoriteLanguage": "Ruby",
+  "quote": "I love to code!",
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAcaAAAAJDY5M2VjYTcxLTY2MGQtNDQ1NS1iNjRmLTNmZmI2NDFhZmNlNw.jpg"
+
+}, {
+  "name": "Rachael Berecka",
+  "hometown": "Somewhere in Texas",
+  "favoriteLanguage": "Ruby",
+  "quote": "Yaaaay!",
+  "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALdAAAAJDIxM2RkNDRjLWZjNDktNDIwMS04NDRiLWJkZjFmZWRlZWUyMQ.jpg"
+
+  }],
+  "groups": [{
+    "name": "Rubies",
+    "ageRange": "8 - 9",
+    "weeks": "Four",
+    "picture": "/images/rubies.jpg"
+
+  }, {
+    "name": "Embers",
+    "ageRange": "10 - 11",
+    "weeks": "Five",
+    "picture": "/images/embers.jpg"
+
+  }, {
+    "name": "SASSies",
+    "ageRange": "12 - 13",
+    "weeks": "Six",
+    "picture": "/images/sassies.jpg"
+  }],
+  "blogs": [{
+    "title": "First Coding Activity",
+    "groupName": "Rubies",
+    "content": "Mob coding is so great! I am learning so much! Helvetica lumbersexual Portland pickled photo booth, Truffaut retro mlkshk American Apparel vegan plaid Thundercats authentic salvia. Pour-over try-hard narwhal banh mi farm-to-table, raw denim Thundercats pug iPhone cold-pressed organic chia cardigan. Ethical skateboard ennui meh Carles, seitan art party paleo before they sold out fingerstache gentrify Marfa scenester keytar. Health goth single-origin coffee wolf jean shorts, Pitchfork Godard taxidermy blog Echo Park try-hard. Vinyl food truck Brooklyn cred 90's messenger bag, mustache cornhole slow-carb yr mumblecore. Bitters pug beard ugh. Godard biodiesel artisan salvia scenester ugh."
+
+  }, {
+    "title": "Hack-a-thon",
+    "groupName": "SASSies",
+    "content": "10 hours in and going strong!"
+
+    }, {
+      "title": "Starting Ember",
+      "groupName": "Embers",
+      "content": "Starting on Ember true to form, hopw we do our name justice!"
+    }]
+}

@@ -1,3 +1,27 @@
-<h2 id="title"></h2>
+<header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <h1>Girl Code</h1>
+      <div class="header-routes">
+        <ul class="nav navbar-nav">
+          <li> {{#link-to 'index'}}Home{{/link-to}} </li>
+          <li> {{#link-to 'about'}}About{{/link-to}} </li>
+          <li> {{#link-to 'blog'}}Blog{{/link-to}} </li>
+          <li> {{#link-to 'mentors'}}Mentors{{/link-to}} </li>
+          <li> {{#link-to 'contact'}}Contact{{/link-to}} </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
-{{outlet}}
+<div class="container">
+  {{outlet}}
+</div>
+
+<hr>
+
+<footer>
+  <p>Rock it out, code it out!</p>
+</footer>

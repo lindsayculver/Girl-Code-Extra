@@ -1,9 +1,11 @@
 {{outlet}}
 
 <h1>It's All About the "Girl Code"...</h1>
-<p>
-  (Description)
-</p>
-
-{{#link-to 'contact'}}Click here to contact us{{/link-to}}<br>
-{{#link-to 'index'}}Home{{/link-to}}
+<h2>
+  Available summer 2016 groups:
+</h2>
+<ul>
+{{#each model as |group|}}
+  {{group-tile group=group}}
+{{/each}}
+</ul>

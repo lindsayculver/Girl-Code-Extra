@@ -1,7 +1,8 @@
 {{outlet}}
 
 <h6>list of mentors</h6>
-
-{{#link-to 'about'}}About{{/link-to}}<br>
-{{#link-to 'contact'}}Click here to contact us{{/link-to}}<br>
-{{#link-to 'index'}}Home{{/link-to}}
+<ul>
+{{#each model as |mentor|}}
+  {{mentor-tile mentor=mentor}}
+{{/each}}
+</ul>
