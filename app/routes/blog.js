@@ -6,6 +6,12 @@ export default Ember.Route.extend({
   },
 
   actions: {
+    save3(params) {
+      var newBlog = this.store.createRecord('blog', params);
+      newBlog.save();
+      this.transitionTo('blog');
+    },
+
     destroyBlog(blog) {
       blog.destroyRecord();
       this.transitionTo('blog');
