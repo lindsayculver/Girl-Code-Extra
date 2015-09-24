@@ -1,41 +1,41 @@
 {"mentors": [{
   "name": "Yelena Nedelko",
-  "hometown": "San Francisco, & more",
-  "favoriteLanguage": "JavaScript",
-  "quote": "You can do it!",
+  "hometown": "From San Francisco, & more",
+  "favoriteLanguage": "Loves JavaScript",
+  "quote": "Wants you to know: You can do it!",
   "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKkAAAAJDBlNmMxOTJmLTM1N2QtNDY2OC05MTA2LThkZWI3YjM1NmQyYw.jpg"
 
 }, {
   "name": "Lindsay Culver",
-  "hometown": "SLO, California",
-  "favoriteLanguage": "Ruby",
-  "quote": "I love to code!",
+  "hometown": "From SLO, California",
+  "favoriteLanguage": "Loves Ruby",
+  "quote": "Wants you to know: I love to code!",
   "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAcaAAAAJDY5M2VjYTcxLTY2MGQtNDQ1NS1iNjRmLTNmZmI2NDFhZmNlNw.jpg"
 
 }, {
   "name": "Rachael Berecka",
-  "hometown": "Somewhere in Texas",
-  "favoriteLanguage": "Ruby",
-  "quote": "Yaaaay!",
+  "hometown": "From Somewhere in Texas",
+  "favoriteLanguage": "Loves Ruby",
+  "quote": "Wants you to know: You're awesome!",
   "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALdAAAAJDIxM2RkNDRjLWZjNDktNDIwMS04NDRiLWJkZjFmZWRlZWUyMQ.jpg"
 
   }],
   "groups": [{
     "name": "Rubies",
-    "ageRange": "8 - 9",
-    "weeks": "Four",
+    "ageRange": "8 - 9 years old",
+    "weeks": "Four Weeks",
     "picture": "/images/rubies.jpg"
 
   }, {
     "name": "Embers",
-    "ageRange": "10 - 11",
-    "weeks": "Five",
+    "ageRange": "10 - 11 years old",
+    "weeks": "Five Weeks",
     "picture": "/images/embers.jpg"
 
   }, {
     "name": "SASSies",
-    "ageRange": "12 - 13",
-    "weeks": "Six",
+    "ageRange": "12 - 13 years old",
+    "weeks": "Six Weeks",
     "picture": "/images/sassies.jpg"
   }],
   "blogs": [{
