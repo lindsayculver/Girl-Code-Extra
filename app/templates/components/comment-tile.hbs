@@ -1,0 +1,9 @@
+{{yield}}
+<li>{{comment.author}}'s comment: {{comment.content}}
+{{#if isContentShowing }}
+       <p>{{comment.content}} {{action 'contentHide'}}</p>
+     {{else}}
+       <button {{action 'contentShow'}}>Show comment</button>
+    {{/if}}
+    <button {{action 'delete' comment}}>Delete</button>
+</li>

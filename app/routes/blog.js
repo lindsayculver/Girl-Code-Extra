@@ -2,13 +2,22 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    return this.store.findAll('blog');
-  },
+    return Ember.RSVP.hash ({
+    blogs: this.store.findAll('blog'),
+    comments: this.store.findAll('comment')
+  });
+},
 
   actions: {
     save3(params) {
       var newBlog = this.store.createRecord('blog', params);
       newBlog.save();
+      this.transitionTo('blog');
+    },
+
+    saveComment(params) {
+      var newComment = this.store.createRecord('comment', params);
+      newComment.save();
       this.transitionTo('blog');
     },
 
@@ -24,6 +33,11 @@ export default Ember.Route.extend({
 
     destroyBlog(blog) {
       blog.destroyRecord();
+      this.transitionTo('blog');
+    },
+
+    destroyComment(comment) {
+      comment.destroyRecord();
       this.transitionTo('blog');
     }
   }
